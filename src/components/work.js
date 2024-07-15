@@ -1,9 +1,10 @@
 import React from "react";
-import Bookmark from "../assets/Bookmark.jpg"
-import Clipboard from "../assets/Clipboard.jpg"
-import Fylo from "../assets/Fylo.jpg"
-import Loopstudios from "../assets/Loopstudios.jpg"
-import Shortly from "../assets/Shortly.jpg"
+import Bookmark from "../assets/Bookmark.jpg";
+import Clipboard from "../assets/Clipboard.jpg";
+import Fylo from "../assets/Fylo.jpg";
+import Loopstudios from "../assets/Loopstudios.jpg";
+import Shortly from "../assets/Shortly.jpg";
+import Travel from "../assets/travel.jpg";
 
 const Work = () => {
   return (
@@ -146,7 +147,31 @@ const Work = () => {
             </div>
           </div>
 
-          
+          {/*        Grid Item   6      */}
+          <div
+            style={{ backgroundImage: `url(${Travel})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effects */}
+
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                ReactJS
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://travell-listt.netlify.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/MdWajidAli/Travel-list-app">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
